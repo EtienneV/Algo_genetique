@@ -1,0 +1,22 @@
+<?php
+function generation_6individu_27($x, $a){
+$tlancement = microtime(true);
+$x++;
+
+
+$x++;
+if($x!=$a){
+	while(($x>$a) && ((microtime(true) - $tlancement) < 0.05)){
+	if($x<$a){
+	$x--;
+if($x!=$a){
+	}
+
+}
+
+}
+
+}
+
+return "retour : ".$x;
+}
